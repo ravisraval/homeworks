@@ -81,6 +81,10 @@ View.prototype.exercise7 = function(){
   //rainbow.
 
   //your code here!
+  $('.square').on('mouseenter', () => {
+    console.log($(event.currentTarget).css("background-color"));
+  }
+  )
 };
 
 
