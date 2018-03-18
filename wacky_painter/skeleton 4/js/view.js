@@ -15,28 +15,29 @@ View.prototype.exercise0 = function () {
   //just a list of dots
 
   //this one completed as an example :) no additional code necessary
-  $('li').removeClass("square");
+  $('li').removeClass('square');
 };
 
 View.prototype.exercise1 = function () {
   //Challenge: Give every square the class 'orange'
   //Result: Every square should turn orange (we already have a CSS rule)
 
-  //your code here!
+  $('li').addClass('orange');
 };
 
 View.prototype.exercise2 = function () {
   //Challenge: Remove every square
   //Result: Every square vanishes
 
-  //your code here!
+  $('li').remove();
 };
 
 View.prototype.exercise3 = function () {
   //Challenge: Add an <h1> with the text 'i love jquery' under the grid.
   //Result: An <h1> with the text 'i love jquery' appears under the grid.
 
-  //your code here!
+  const h1 = $('<h1>').text('jQuery is ok');
+  $('#easel').append(h1);
 };
 
 View.prototype.exercise4 = function () {
